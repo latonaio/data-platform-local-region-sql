@@ -1,23 +1,23 @@
-# data-platform-region-sql
-data-platform-region-sql は、データ連携基盤において、地域データを維持管理するSQLテーブルを作成するためのレポジトリです。 
+# data-platform-local-region-sql
+data-platform-local-region-sql は、データ連携基盤において、ローカル地域データを維持管理するSQLテーブルを作成するためのレポジトリです。 
 
 ## 前提条件  
-data-platform-region-sql は、データ連携にあたり、API を利用し、本レポジトリ の sql 設定ファイルの内容は、下記 URL の API 仕様を前提としています。  
+data-platform-local-region-sql は、データ連携にあたり、API を利用し、本レポジトリ の sql 設定ファイルの内容は、下記 URL の API 仕様を前提としています。  
 https://api.XXXXXXXX.com/api/OP_API_XXXXXXX_XXX/overview  
 
 ## sqlの設定ファイル
-data-platform-region-sql には、sqlの設定ファイルとして、以下のファイルが含まれています。  
+data-platform-local-region-sql には、sqlの設定ファイルとして、以下のファイルが含まれています。  
 
-* data-platform-region-sql-region-data.sql（データ連携基盤 地域 - 地域データ）  
-* data-platform-region-sql-region-data-setup.sql（データ連携基盤 地域 - 地域データ の設定）  
-* data-platform-region-sql-region-text-data.sql（データ連携基盤 地域 - 地域テキストデータ）  
-* data-platform-region-sql-text-data-setup.sql（データ連携基盤 地域 - 地域テキストデータ の設定）  
+* data-platform-local-region-sql-local-region-data.sql（データ連携基盤 ローカル地域 - ローカル地域データ）  
+* data-platform-local-region-sql-local-region-data-setup.sql（データ連携基盤 ローカル地域 - ローカル地域データ の設定）  
+* data-platform-local-region-sql-local-region-text-data.sql（データ連携基盤 ローカル地域 - ローカル地域テキストデータ）  
+* data-platform-local-region-sql-local-region-text-data-setup.sql（データ連携基盤 ローカル地域 - ローカル地域テキストデータ の設定）  
 
 ## 設定値
 setupファイルには、各テーブルに対応した設定値が含まれています。  
 設定値は次の通りです。  
 
-| 地域(都道府県)コード | 地域(都道府県)名 | 
+| ローカル地域(都道府県)コード | ローカル地域(都道府県)名 | 
 | -------------------- | ---------------- | 
 | 01                   | 北海道           | 
 | 02                   | 青森県           | 
