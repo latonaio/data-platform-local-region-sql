@@ -10,8 +10,8 @@ data-platform-local-region-sql には、sqlの設定ファイルとして、以�
 
 * data-platform-local-region-sql-local-region-data.sql（データ連携基盤 ローカル地域 - ローカル地域データ）  
 * data-platform-local-region-sql-local-region-data-setup.sql（データ連携基盤 ローカル地域 - ローカル地域データ の設定）  
-* data-platform-local-region-sql-local-region-text-data.sql（データ連携基盤 ローカル地域 - ローカル地域テキストデータ）  
-* data-platform-local-region-sql-local-region-text-data-setup.sql（データ連携基盤 ローカル地域 - ローカル地域テキストデータ の設定） 
+* data-platform-local-region-sql-text-data.sql（データ連携基盤 ローカル地域 - ローカル地域テキストデータ）  
+* data-platform-local-region-sql-text-data-setup.sql（データ連携基盤 ローカル地域 - ローカル地域テキストデータ の設定） 
 * data-platform-local-region-sql-local-sub-region-data.sql（データ連携基盤 ローカル地域 - ローカルサブ地域データ）  
 * data-platform-local-region-sql-local-sub-region-data-setup.sql（データ連携基盤 ローカル地域 - ローカルサブ地域データ の設定）  
 * data-platform-local-region-sql-local-sub-region-text-data.sql（データ連携基盤 ローカル地域 - ローカルサブ地域テキストデータ）  
